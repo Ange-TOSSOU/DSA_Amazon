@@ -1,16 +1,14 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<String> items = new ArrayList<>();
+        ArrayList<String> laptopBrands = new ArrayList<>(Arrays.asList("Dell", "HP", "Asus"));
+        System.out.println(laptopBrands);
 
-        items.add("Yellow");
-        items.add("Green");
-        items.add("Red");
-
-        String str = items.get(1);
-        System.out.println(str);
+        laptopBrands.add("Apple");
+        System.out.println(laptopBrands);
     }
 
 }
