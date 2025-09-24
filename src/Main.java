@@ -1,14 +1,15 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<String> laptopBrands = new ArrayList<>(Arrays.asList("Dell", "HP", "Asus"));
-        System.out.println(laptopBrands);
+        ArrayList<String> ads = new ArrayList<>();
+        ads.add("Buy One Get One Free");
+        ads.add("20% Off All Items");
+        System.out.println(ads);
 
-        laptopBrands.add("Apple");
-        System.out.println(laptopBrands);
+        ads.set(1, "30% Off All Items");
+        System.out.println(ads);
     }
 
 }
